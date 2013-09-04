@@ -1,20 +1,5 @@
 # my bashrc file
 
-export PATH=/usr/local/bin:$PATH
-alias vgsshfs='sshfs janbakke@vg-dev-01:/home/janbakke /Users/jvb/Volumes/vgdev -oauto_cache,reconnect,volname=vgdev,defer_permissions'
-alias vgdevssh='ssh vg-dev-01 -l janbakke'
-alias ls='ls -la'
-alias vgdev='cd /Users/jvb/Volumes/vgdev/webdev/html'
-alias zf='php /Users/jvb/Development/vendor/ZendFramework-2.2.2/bin/zftool.phar'
-export CLICOLOR=1
-export LSCOLORS=ExFxCxDxBxegedabagacad
-export LC_CTYPE="en_US.UTF-8"
-export PATH=/Applications/MAMP/bin/php/php5.4.10/bin:$PATH
-
-##
-# Your previous /Users/jvb/.bash_profile file was backed up as /Users/jvb/.bash_profile.macports-saved_2013-08-13_at_12:44:19
-##
-
-# MacPorts Installer addition on 2013-08-13_at_12:44:19: adding an appropriate PATH variable for use with MacPorts.
-export PATH=/opt/local/bin:/opt/local/sbin:$PATH
-# Finished adapting your PATH environment variable for use with MacPorts.
+source ~/bin/dotfiles/bash/env
+source ~/bin/dotfiles/bash/alias
+source ~/bin/dotfiles/bash/prompt

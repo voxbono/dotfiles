@@ -1,0 +1,12 @@
+# ALIAS
+
+alias vgsshfs='sshfs janbakke@vg-dev-01:/home/janbakke /Users/jvb/Volumes/vgdev -oauto_cache,reconnect,volname=vgdev,defer_permissions'
+alias vgdevssh='ssh vg-dev-01 -l janbakke'
+alias ls='ls -la'
+alias vgdev='cd /Users/jvb/Volumes/vgdev/webdev/html'
+alias zf='php /Users/jvb/Development/vendor/ZendFramework-2.2.2/bin/zftool.phar'
+
+take () {
+	mkdir $1
+	cd $1
+}

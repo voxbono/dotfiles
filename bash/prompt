@@ -1,0 +1,6 @@
+# PROMPT
+
+PS1='\u@\h: \w\n →'
+export CLICOLOR=1
+export LSCOLORS=ExFxCxDxBxegedabagacad
+export LC_CTYPE="en_US.UTF-8"
