@@ -3,3 +3,4 @@
 export PATH=/usr/local/bin:$PATH
 export PATH="~/bin:$PATH"
 export PATH=/Applications/MAMP/bin/php/php5.4.10/bin:$PATH
+source ~/liquidprompt/liquidprompt

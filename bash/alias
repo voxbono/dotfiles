@@ -1,10 +1,21 @@
 # ALIAS
 
+alias richmedia='ssh vgmobil-richmedia-01'
+alias vgads='cd /Applications/MAMP/htdocs/vgads/'
 alias vgsshfs='sshfs janbakke@vg-dev-01:/home/janbakke /Users/jvb/Volumes/vgdev -oauto_cache,reconnect,volname=vgdev,defer_permissions'
 alias vgdevssh='ssh vg-dev-01 -l janbakke'
 alias ls='ls -la'
 alias vgdev='cd /Users/jvb/Volumes/vgdev/webdev/html'
 alias zf='php /Users/jvb/Development/vendor/ZendFramework-2.2.2/bin/zftool.phar'
+alias redis-cli='/Users/jvb/bin/redis-2.6.16/src/redis-cli'
+alias redis-server='/Users/jvb/bin/redis-2.6.16/src/redis-server'
+
+#GIT ALIAS
+alias gs='git status'
+alias ga='git add'
+alias gc='git commit'
+alias gd='git diff'
+
 
 take () {
 	mkdir $1
